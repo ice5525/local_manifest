@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <!--Remotes-->
+  <remote  name="ice5525"
+           fetch="https://github.com" />
+
+  <remote  name="Euphoria-OS-Legacy"
+           fetch="https://github.com" />
+
+  <remote  name="sultanxda"
+           fetch="https://github.com" />
+
+  <remote  name="CyanogenMod"
+           fetch="https://github.com" />
+
+  <remote  name="TheMuppets"
+           fetch="https://github.com" />
+
+
+  
   <!--Repositories to replace-->
   <remove-project name="Euphoria-OS-Legacy/android_hardware_qcom_audio" />
   <remove-project name="Euphoria-OS-Legacy/android_hardware_qcom_display" />

@@ -30,7 +30,7 @@
   <project path="build" remote="ice5525" name="ice5525/android_build" groups="pdk,tradefed" revision="lollipop-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="packages/apps/Settings" remote="ice5525" name="ice5525/android_packages_apps_Settings" revision="lollipop-5.1" 
+  <project path="packages/apps/Settings" remote="ice5525" name="ice5525/android_packages_apps_Settings" revision="lollipop-5.1" />
   
   <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />

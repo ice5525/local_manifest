@@ -7,6 +7,11 @@
   <remove-project name="Euphoria-OS-Legacy/android_hardware_qcom_media" />
   <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Camera2" />
   
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="Euphoria-OS-Legacy/android_build" />
+  <remove-project name="Euphoria-OS-Legacy/android_frameworks_base" />
+  <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Settings" />
+  
   <!--Repositories to fetch-->
   <project path="device/oneplus/bacon" remote="ice5525" name="ice5525/android_device_oneplus_bacon" revision="cm-12.1-caf" />
   <project path="device/oppo/common" remote="Euphoria-OS-Legacy" name="Euphoria-OS-Legacy/android_device_oppo_common" revision="lollipop-5.1" />
@@ -19,6 +24,13 @@
   <project path="vendor/oneplus" remote="sultanxda" name="sultanxda/proprietary_vendor_oneplus" revision="cm-12.1-caf" />
   <project path="vendor/oppo" remote="TheMuppets" name="TheMuppets/proprietary_vendor_oppo" revision="cm-12.1" />
   <project path="packages/apps/Camera2" remote="CyanogenMod" name="CyanogenMod/android_packages_apps_Camera2" revision="cm-12.1" />
+  
+  <project path="packages/apps/Launcher3" remote="ice5525" name="ice5525/android_packages_apps_Launcher3" revision="lollipop-5.1" />
+  <project path="frameworks/base" remote="ice5525" name="ice5525/android_frameworks_base" revision="lollipop-5.1" />
+  <project path="build" remote="ice5525" name="ice5525/android_build" groups="pdk,tradefed" revision="lollipop-5.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="packages/apps/Settings" remote="ice5525" name="ice5525/android_packages_apps_Settings" revision="lollipop-5.1" 
   
   <!--Repositories to remove-->
   <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />

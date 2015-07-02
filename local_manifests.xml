@@ -25,7 +25,7 @@
   <remove-project name="Euphoria-OS-Legacy/android_hardware_qcom_media" />
   <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Camera2" />
   
-  <remove-project name="platform/packages/apps/Launcher3" />
+  <!-- <remove-project name="platform/packages/apps/Launcher3" /> -->
   <remove-project name="Euphoria-OS-Legacy/android_build" />
   <remove-project name="Euphoria-OS-Legacy/android_frameworks_base" />
   <remove-project name="Euphoria-OS-Legacy/android_packages_apps_Settings" />
@@ -43,7 +43,7 @@
   <project path="vendor/oppo" remote="TheMuppets" name="TheMuppets/proprietary_vendor_oppo" revision="cm-12.1" />
   <project path="packages/apps/Camera2" remote="CyanogenMod" name="CyanogenMod/android_packages_apps_Camera2" revision="cm-12.1" />
   
-  <project path="packages/apps/Launcher3" remote="ice5525" name="ice5525/android_packages_apps_Launcher3" revision="lollipop-5.1" />
+  <!-- <project path="packages/apps/Launcher3" remote="ice5525" name="ice5525/android_packages_apps_Launcher3" revision="lollipop-5.1" /> -->
   <project path="frameworks/base" remote="ice5525" name="ice5525/android_frameworks_base" revision="lollipop-5.1" />
   <project path="build" remote="ice5525" name="ice5525/android_build" groups="pdk,tradefed" revision="lollipop-5.1" >
     <copyfile src="core/root.mk" dest="Makefile" />

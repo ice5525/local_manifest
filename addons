@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hash>
+    <addons>
+        <addon>
+            <id>1</id> <!-- Use integers only, make them unique -->
+            <name>Remove CPU Underclock</name> <!-- The name, simples -->
+            <description>Use stock 2.5 GHz instead of 2 GHz</description> <!-- You can use markdown here if you want -->
+            <updated-at>2014-12-24</updated-at> <!-- Must be in yyyy-mm-dd format -->
+            <size>443900</size> <!-- filesize in bytes -->
+            <download-link>
+            <![CDATA[
+			http://forum.xda-developers.com/devdb/project/dl/?id=12808&task=get
+			]]>
+            </download-link>
+        </addon>
+    </addons>
+</hash>

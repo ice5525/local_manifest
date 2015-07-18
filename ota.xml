@@ -4,7 +4,7 @@
   <![CDATA[ eos-caf-bacon ]]>
   </RomName>
   <VersionName>
-  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150718 ]]>
+  <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-XXX ]]>
   </VersionName> 
   <VersionNumber type="integer">20150718</VersionNumber>
   <DirectUrl>
@@ -18,8 +18,8 @@
   ]]>
   </HttpUrl>
   <Android>5.1.1</Android>
-  <CheckMD5>228</CheckMD5>
-  <FileSize type="integer">420147739</FileSize>
+  <CheckMD5>0</CheckMD5>
+  <FileSize type="integer">0</FileSize>
   <Developer>
   <![CDATA[ ice5525 ]]>
   </Developer>
@@ -28,11 +28,15 @@
   http://forum.xda-developers.com/oneplus-one/development/rom-kernel-euphoria-os-1-1-3-4-0-caf-t3134828
   ]]>
   </WebsiteURL>
-  <!-- Your Donate URL -->
-  <!-- OPTIONAL: Enter <DonateURL nil="true" /> to hide this -->
   <DonateURL nil="true" >
   </DonateURL>
   <Changelog>### Changelog 20150718
   * Test of the new OTA Updater
   </Changelog>
+  <AddonCount>1</AddonCount>
+  <AddonsURL>
+  <![CDATA[
+  http://ice5525.github.io/local_manifest/addons.xml
+  ]]>
+  </AddonsURL>
 </ROM>

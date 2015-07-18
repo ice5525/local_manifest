@@ -22,7 +22,8 @@
   </WebsiteURL>
   <!-- Your Donate URL -->
   <!-- OPTIONAL: Enter <DonateURL nil="true" /> to hide this -->
-  <DonateURL nil="true" />>DONATE URL HERE</DonateURL>
+  <DonateURL nil="true" >
+  </DonateURL>
   <Changelog>### Changelog 20150718
   * Just a test of OTA
   </Changelog>

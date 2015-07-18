@@ -7,8 +7,16 @@
   <![CDATA[ Euphoria-OS-1.1-bacon-CAF-UNOFFICIAL-20150718 ]]>
   </VersionName> 
   <VersionNumber type="integer">20150718</VersionNumber>
-  <DirectUrl>http://tx1.androidfilehost.com/dl/91p3fd3FoBtR5wnD1CvgAQ/1437255324/24052804347776477/Enable_OTA_support.zip</DirectUrl>
-  <HttpUrl>https://www.androidfilehost.com/?w=files&flid=33671</HttpUrl>
+  <DirectUrl>
+  <![CDATA[
+  http://tx1.androidfilehost.com/dl/91p3fd3FoBtR5wnD1CvgAQ/1437255324/24052804347776477/Enable_OTA_support.zip
+  ]]>
+  </DirectUrl>
+  <HttpUrl>
+  <![CDATA[
+  https://www.androidfilehost.com/?w=files&flid=33671
+  ]]>
+  </HttpUrl>
   <Android>5.1.1</Android>
   <CheckMD5>228</CheckMD5>
   <FileSize type="integer">420147739</FileSize>

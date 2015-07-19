@@ -33,7 +33,7 @@
   <Changelog>### Changelog 20150718
   * Test of the new OTA Updater
   </Changelog>
-  <! -- <AddonCount>1</AddonCount>
+  <!-- <AddonCount>1</AddonCount>
   <AddonsURL>
   <![CDATA[
   http://ice5525.github.io/local_manifest/addons.xml
